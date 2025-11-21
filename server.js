@@ -1,16 +1,15 @@
+import express from 'express';
+import cors from 'cors';
+import multer from 'multer';
+import FormData from 'form-data';
+import fs from 'fs';
+import axios from 'axios';
 
-const express = require('express');
-const cors = require('cors');
-const multer = require('multer');
-const FormData = require('form-data');
-const fs = require('fs');
-const axios = require('axios');
-const path = require('path');
 
 const app = express();
 const upload = multer({ dest: 'uploads/' });
 
-// Enable CORS to allow requests from the frontend (usually localhost:3000 or 5173)
+// Enable CORS to allow requests from the frontend
 app.use(cors());
 
 /**
