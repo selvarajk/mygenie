@@ -20,7 +20,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => 
         <div className="bg-blue-500 p-2 rounded-lg">
             <FileText size={20} className="text-white" />
         </div>
-        <h1 className="text-xl font-bold tracking-tight">GeniusAI</h1>
+        <h1 className="text-xl font-bold tracking-tight">Comply Genie</h1>
       </div>
 
       <nav className="flex-1 py-6 px-4 space-y-2">
